@@ -1,0 +1,25 @@
+@import "./assets/styles/reset.css";
+@import "./assets/styles/grid.css";
+@import "./assets/styles/features.css";
+
+.profile-card_margin {
+    margin: 20px auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

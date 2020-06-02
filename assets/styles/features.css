@@ -1,0 +1,42 @@
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #6c7279;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features-item {
+    padding: 0 20px;
+    margin-bottom: 67px;
+    text-align: center;
+}
+
+.item-name {
+    font-size: 14px;
+    color: #2d3033;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.item-description {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #6c7279;
+}
+
+svg {
+    width: 70px;
+    margin-bottom: 5px;
+}
+
+svg path {
+    fill: #f0483e;
+}
+
